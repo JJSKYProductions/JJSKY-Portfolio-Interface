@@ -1,0 +1,82 @@
+.home-display-block {
+  width: 90vw;
+  height: 100svh;
+  position: fixed;
+}
+
+.home-title {
+  font-size: 16vw;
+  width: 70wv;
+  color: lightgray;
+  margin-left: 4rem;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 21%;
+  top: 20%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  z-index: 300; 
+}
+
+.discription-box {
+  background-image: linear-gradient(to bottom,
+  rgba(0,0,0,0) 0%,
+  rgba(0,0,0,0.5) 30%,
+  rgba(0,0,0,0.8) 100%);
+  height: 25vh;
+  width: 100vw;
+  position: fixed;
+  display: flexbox;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow-y: scroll;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.home-discription {
+ display: flex; 
+ flex-flow: column;
+ flex-wrap: wrap;
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+ font-size: 1rem;
+ color: white;
+ overflow-y: hidden;
+ width: 60vw;
+ position: relative;
+ left: 50%;
+ transform: translateX(-50%);
+}
+
+
+
+@media (max-width: 510px) {
+
+  .home-discription {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 510px), (max-width: 1100px ) {
+
+  .home-discription {
+    font-size: 90%;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+
+  .home-title {
+    margin-left: 3rem;
+  }
+
+}
+
+
+
+
+
+

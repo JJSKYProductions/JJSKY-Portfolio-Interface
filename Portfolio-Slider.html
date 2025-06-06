@@ -1,0 +1,347 @@
+<style>
+  .slider, .slider2 {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  border: none;
+  overflow: hidden;
+}
+
+.slider .slides,
+.slider2 .slides2 {
+  width: 100%;
+  height: 100%;
+  transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+  position: relative;
+}
+
+.jtech-image,
+.diphala-image {
+  height: 100%;
+  width: 1000px;
+  position: absolute;
+}
+
+.jtech-image img,
+.diphala-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+.jtech-image :not(.active),
+.diphala-image :not(.active) {
+  top: 0;
+  left: -100%;
+}
+
+.slider button,
+.slider2 button {
+  position: absolute;
+  top: 42%;
+  transform: translateY(-50);
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.prev,
+.prev2 {
+  left: 0;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.next,
+.next2 {
+  right: 0;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.prev:hover,
+.next:hover,
+.prev2:hover,
+.next2:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.nav-dots,
+.nav-dots2 {
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.single-dot,
+.single-dot2 {
+  background: rgba(0,0,0,0.6);
+  height: 1rem;
+  width: 1rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 400ms;
+  margin: 0 0.5rem;
+}
+
+.single-dot.active,
+.single-dot2.active {
+  background: lightgray;
+}
+</style>
+
+<div class="web-design-display" onload="imageSlider()">
+  <h2 class="web-design-title">WEB DESIGN</h2>
+
+  <div class="intro-block">
+    <p>Web development experience using Wordpress, Godaddy, Squarespace and HTML, CSS & Javascript website development. I created different portfolio websites and have experience creating an ecommerce wbsite from scratch through frontend web development.</p>
+  </div>
+
+  <div class="web-design-grid">
+    <div class="web-design-card">
+      <h2 class="card-tilte">JASONTECH</h2>
+
+      <div class="slider">
+        <div class="slides">
+          <div class="jtech-image">
+            <img src="Images/Websites/Jasontech-1.png" alt="">
+          </div>
+          <div class="jtech-image">
+            <img src="Images/Websites/Jasontech-2.png" alt="">
+          </div>
+          <div class="jtech-image">
+            <img src="Images/Websites/Jasontech-3.png" alt="">
+          </div>
+          <div class="jtech-image">
+            <img src="Images/Websites/Jasontech-4.png" alt="">
+          </div>
+          <div class="jtech-image">
+            <img src="Images/Websites/Jasontech-5.png" alt="">
+          </div>
+        </div>
+        <button class="prev">&#10094</button>
+        <button class="next">&#10095</button>
+
+        <div class="nav-dots">
+        </div>
+
+      </div>
+
+      <div class="web-discription">
+        Portfolio website designed on Universe website builder. This website was made to showcase my work yousing a cost effective method before I purchase and install a permanent domain. The website contains 5 pages and has links to YouTube that showcase my video editing skills. The main menu links also link to my social media pages and my contact information for instant enqiries. This website is also compatable with all screen sizes as it was converted with the applications sorce code.
+      </div>
+
+    </div>
+
+    <div class="web-design-card">
+      <h2 class="card-tilte">DIPHALA DS</h2>
+
+      <div class="slider2">
+        <div class="slides2">
+          <div class="diphala-image">
+            <img src="Images/Websites/DiphalaDS-1.png" alt="">
+          </div>
+          <div class="diphala-image">
+            <img src="Images/Websites/DiphalaDS-2.png" alt="">
+          </div>
+          <div class="diphala-image">
+            <img src="Images/Websites/DiphalaDS-3.png" alt="">
+          </div>
+          <div class="diphala-image">
+            <img src="Images/Websites/DiphalaDS-4.png" alt="">
+          </div>
+          <div class="diphala-image">
+            <img src="Images/Websites/DiphalaDS-5.png" alt="">
+          </div>
+          <div class="diphala-image">
+            <img src="Images/Websites/DiphalaDS-6.png" alt="">
+          </div>
+          <div class="diphala-image">
+            <img src="Images/Websites/DiphalaDS-7.png" alt="">
+          </div>
+        </div>
+        <button class="prev2">&#10094</button>
+        <button class="next2">&#10095</button>
+
+        <div class="nav-dots2">
+        </div>
+
+      </div>
+
+      <div class="web-discription">
+        Store  website made under the employment of Diphala development Services. I was instructed to build a website through the the GoDaddy app. Where I made an introductory website to the new stor that the owner had opened. The website had a direct dowload link to the stores workwear catalogue to help potential customers gather the neccessary informationthey needed if so they required specific tailored uniform. The about page displayed their history and experience within the industry and featured a carosel of all their clients they serviced. The website was to direct the customer to their stor with a google maps link and featured links to specific sections of their cataogue for customers who did not require the full catalogue pdf.
+      </div>
+
+    </div>
+
+  </div>
+
+  
+
+</div>
+
+<script>
+  function imageSlider() {
+  document.addEventListener('DOMContentLoaded', () => { 
+    var slideImage = document.querySelectorAll('.jtech-image');
+    console.log(slideImage)
+    const slidesContainer = document.querySelector('.slides');
+    const nextBtn = document.querySelector('.next');
+    const prevBtn = document.querySelector('.prev');
+    const navigationDots = document.querySelector('.nav-dots');
+  
+  
+    let numberOfImages = slideImage.length;
+    let slideWidth = slideImage[0].clientWidth;
+    let currentSlide = 0;
+  
+    function init() {
+      slideImage.forEach((img, i) => {
+        img.style.left = i * 100 + '%';
+      });
+  
+      slideImage[0].classList.add('active');
+  
+      createNavigationDots();
+    }
+  
+    init();
+  
+    function createNavigationDots() {
+      for (let i = 0; i < numberOfImages; i++) {
+        const dot = document.createElement('div');
+        dot.classList.add('single-dot');
+        navigationDots.appendChild(dot);
+  
+        dot.addEventListener('click', () => {
+          goToSlide(i);
+        });
+      }
+  
+      navigationDots.children[0].classList.add('active');
+    }
+  
+    nextBtn.addEventListener('click', () => {
+      if (currentSlide >= numberOfImages - 1) {
+        goToSlide(0);
+        return;
+      }
+      currentSlide++;
+      goToSlide(currentSlide);
+    });
+  
+    prevBtn.addEventListener('click', () => {
+      if (currentSlide <= 0) {
+        goToSlide(numberOfImages - 1);
+        return;
+      }
+      currentSlide--;
+      goToSlide(currentSlide);
+    });
+  
+    function goToSlide(slideNumber) {
+      slidesContainer.style.transform = 'translateX(-' + slideWidth * slideNumber + 'px)';
+  
+      currentSlide = slideNumber;
+  
+      setActiveClass();
+    }
+  
+    function setActiveClass() {
+      let currentActive = document.querySelector('.jtech-image.active');
+      currentActive.classList.remove('active');
+      slideImage[currentSlide].classList.add('active');
+  
+      let currentDot = document.querySelector('.single-dot.active');
+      currentDot.classList.remove('active');
+      navigationDots.children[currentSlide].classList.add('active');
+    }
+  
+  
+    const slideImage2 = document.querySelectorAll('.diphala-image');
+    const slidesContainer2 = document.querySelector('.slides2');
+    const nextBtn2 = document.querySelector('.next2');
+    const prevBtn2 = document.querySelector('.prev2');
+    const navigationDots2 = document.querySelector('.nav-dots2');
+  
+    let numberOfImages2 = slideImage2.length;
+    let slideWidth2 = slideImage2[0].clientWidth;
+    let currentSlide2 = 0;
+  
+    function init2() {
+      slideImage2.forEach((img, i) => {
+        img.style.left = i * 100 + '%';
+      });
+  
+      slideImage2[0].classList.add('active');
+  
+      createNavigationDots2();
+    }
+  
+    init2();
+  
+    function createNavigationDots2() {
+      for (let i = 0; i < numberOfImages2; i++) {
+        const dot2 = document.createElement('div');
+        dot2.classList.add('single-dot2');
+        navigationDots2.appendChild(dot2);
+  
+        dot2.addEventListener('click', () => {
+          goToSlide2(i);
+        });
+      }
+  
+      navigationDots2.children[0].classList.add('active');
+    }
+  
+    nextBtn2.addEventListener('click', () => {
+      if (currentSlide2 >= numberOfImages2 - 1) {
+        goToSlide2(0);
+        return;
+      }
+      currentSlide2++;
+      goToSlide2(currentSlide2);
+    });
+  
+    prevBtn2.addEventListener('click', () => {
+      if (currentSlide2 <= 0) {
+        goToSlide2(numberOfImages2 - 1);
+        return;
+      }
+      currentSlide2--;
+      goToSlide2(currentSlide2);
+    });
+  
+    function goToSlide2(slideNumber2) {
+      slidesContainer2.style.transform = 'translateX(-' + slideWidth2 * slideNumber2 + 'px)';
+  
+      currentSlide2 = slideNumber2;
+  
+      setActiveClass2();
+    }
+  
+    function setActiveClass2() {
+      let currentActive2 = document.querySelector('.diphala-image.active');
+      currentActive2.classList.remove('active');
+      slideImage2[currentSlide2].classList.add('active');
+  
+      let currentDot2 = document.querySelector('.single-dot2.active');
+      currentDot2.classList.remove('active');
+      navigationDots2.children[currentSlide2].classList.add('active');
+    }
+  }); 
+}
+</script>

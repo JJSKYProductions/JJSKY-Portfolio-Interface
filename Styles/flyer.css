@@ -1,0 +1,157 @@
+.flyer-design-display-block {
+  display: block;
+  margin-left: 9.2rem;
+  height: 100vh;
+  width: 70vw;
+  z-index: 400;
+}
+
+.flyer-design-title {
+  font-size: 6rem;
+  color: lightgray;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+  margin-bottom: 25rem;
+  margin-left: 1.5rem;
+}
+
+.flyer-intro-block {
+  display: flexbox;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: lightgray;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 1rem;
+  width: 97%;
+}
+
+.f1-slider-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 3rem;
+  column-gap: 2rem;
+  width: 100%;
+}
+
+.f1-slider-card {
+  display: flex;
+  margin-bottom: 1rem;
+  color: lightgray;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 1rem;
+}
+
+.f3-slider-card {
+  display: flexbox;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: lightgray;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 1rem;
+}
+
+.f2-slider-grid {
+  display: grid;
+  grid-row: auto;
+  margin-bottom: 3rem;
+  row-gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.f2-slider-card {
+  display: flex;
+  text-align: left;
+  margin-bottom: 2rem;
+  color: lightgray;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 1rem;
+}
+
+.flyer-image {
+  max-width: 250px;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.flyer-image2 {
+  width: 250px;
+  margin-right: 1rem;
+  height: 100%;
+}
+
+.flyer-image3 {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.f1-discription {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.f1-header {
+  margin-top: 0;
+}
+
+@media (max-width: 1200px) {
+  .flyer-design-display-block {
+    margin-left: 4rem;
+  }
+
+  .flyer-design-title {
+    font-size: 3rem;
+  }
+
+  .flyer-intro-block {
+    margin-left: 1rem;
+    max-width: 80%;
+    font-size: 80%;
+  }
+
+  .f1-slider-grid {
+    display: block;
+    margin-left: 1rem;
+    justify-content: center;
+  }
+
+  .f1-slider-card {
+    display: block;
+    width: 80%;
+    margin-inline: 0;
+  }
+
+  .f3-slider-card {
+    width: 80%;
+    text-align: center;
+  }
+
+  .f2-slider-grid {
+    display: block;
+  }
+
+  .f2-slider-card {
+    display: block;
+    width: 80%;
+    margin-left: 1rem;
+  }
+
+  .flyer-image {
+    width: 100%;
+  }
+
+  .flyer-image2 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .f1-discription,
+  .f3-discription {
+    margin-left: 0;
+    text-align: center;
+    font-size: 80%;
+  }
+
+}

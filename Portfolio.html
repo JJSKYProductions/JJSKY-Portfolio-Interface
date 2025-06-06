@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="Styles/home.css">
+  <link rel="stylesheet" href="Styles/CV.css">
+  <link rel="stylesheet" href="Styles/About.css">
+  <link rel="stylesheet" href="Styles/Logo-design.css">
+  <link rel="stylesheet" href="Styles/Business-card.css">
+  <link rel="stylesheet" href="Styles/flyer.css">
+  <link rel="stylesheet" href="Styles/T-shirt.css">
+  <link rel="stylesheet" href="Styles/Website.css">
+  <link rel="stylesheet" href="Styles/Illustration.css">
+  <link rel="stylesheet" href="Styles/video-editing.css">
+  <link rel="stylesheet" href="Styles/3D-animation.css">
+  <link rel="stylesheet" href="Styles/drone.css">
+  <link rel="stylesheet" href="Styles/Contact.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: arial;
+      --sb-width: 4.5rem;
+    }
+
+    body.sb-expanded {
+      --sb-width: 15.5rem;
+    }
+
+    .home-slider {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-size: cover;
+      background-image: url(Animations/background-animation.gif);
+      background-image: linear-gradient(to-bottom, rgba(0,0,0,0) 0%,
+      rgba(0,0,0,0.8) 100%);
+      z-index: 100;
+    }
+
+    aside {
+      position: fixed;
+      /*top: 0;
+      left: 0;
+      bottom: 0;*/
+      inset: 0 0 0 0;
+      padding: 1rem 1rem;
+      z-index: 300;
+      /*width: 105px;*/
+      width: var(--sb-width);
+      background-image: linear-gradient(pink, lightblue);
+      text-wrap: nowrap;
+      transition: width 0.6s ease-in-out;
+    }
+
+    .menu-icon {
+      width: 35px;
+    }
+
+    nav {
+      /*border: 1px solid black;*/
+      height: 100%;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-flow: column;
+      overflow-y: scroll;
+      gap: 0.25rem;
+      height: 100%;
+      margin-left: -2rem;
+      scrollbar-width: none;
+    }
+
+    nav li:last-child {
+      margin-bottom: auto;
+    }
+
+    nav a {
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+      padding: 0.525rem 0.775rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.375rem;
+      transition: 
+        background-color 0.5s ease-in-out,
+        color 0.5s ease-in-out;
+    }
+
+    nav a.active {
+      outline: none;
+      color: pink;
+      background-color: lightblue;
+      border: solid 2px white;
+    }
+
+    nav a span {
+      font-size: 0.875rem;
+      opacity: 0;
+      visibility: hidden;
+      transition: 
+        opacity 0.3s ease-in-out,
+        visibility 0.3s ease-in-out;
+    }
+
+    .sb-expanded nav a span {
+      opacity: 1;
+      visibility: visible;
+      transition: 0.8s ease-in-out;
+    }
+
+    main {
+      padding: 1rem 2rem;
+      transition: margin-left 0.5s ease-in-out;
+    }
+
+    @media (min-width: 768px) {
+      main {
+        margin-left: var(--sb-width);
+        padding: 0.5rem 0.5rem;
+      }
+
+      .home-slider {
+        background-size: cover;
+      }
+
+    }
+
+    @media (max-width: 1000px) {
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+        --sb-width: 3.3rem;
+      }
+
+      body.sb-expanded {
+        --sb-width: 10.5rem;
+      }
+
+      .aside {
+        padding: 0.5rem;
+      }
+
+      nav a {
+        pad: 0.6rem 0.5rem;
+      }
+
+      .menu-icon {
+        width: 30px;
+        margin-left: -2px;
+      }
+
+      nav a span {
+        font-size: 70%;
+        text-wrap: wrap;
+      }
+
+      nav ul {
+        margin-left: -2.5rem;
+      }
+      main {
+        padding-right: 0rem;
+      }
+      .display-side {
+        width: 90vw;
+        margin-left: -1rem;
+      }
+    }
+
+    .display-side {
+      text-align: center;
+      display: flexbox;
+      place-items: middle;
+      max-height: 100vh;
+      width: 100vw;
+      position: relative;
+      overflow-y: scroll;
+      scrollbar-width: none;
+      z-index: 200;
+    }
+
+
+
+   
+  </style>
+</head>
+<body  class="sb-expanded">
+
+
+ 
+ <section class="home-slider">
+  <aside class="js-sidebar">
+    <nav>
+      <ul>
+        <li class="js-home-button">
+          <a href="#home-page" class="active">
+            <img src="Images/Icons/home-01.png" alt="" class="menu-icon">
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="js-cv-button">
+          <a href="#resume-page">
+            <img src="Images/Icons/CV-01.png" alt="" class="menu-icon">
+            <span>My Resume</span>
+          </a>
+        </li>
+        <li class="js-about-button">
+          <a href="#about-page">
+            <img src="Images/Icons/About-01.png" alt="" class="menu-icon">
+            <span>About</span>
+          </a>
+        </li>
+        <li class="js-logo-button">
+          <a href="#logo-page">
+            <img src="Images/Icons/Logo-01.png" alt="" class="menu-icon">
+            <span>Logo Design</span>
+          </a>
+        </li>
+        <li class="js-business-button">
+          <a href="#business-card-page">
+            <img src="Images/Icons/Business-card-01.png" alt="" class="menu-icon">
+            <span>Bussiness Card Designs</span>
+          </a>
+        </li>
+        <li class="js-flyer-button">
+          <a href="#flyer-page">
+            <img src="Images/Icons/flyer-01.png" alt="" class="menu-icon">
+            <span>Flyer Design</span>
+          </a>
+        </li>
+        <li class="js-t-shirt-button">
+          <a href="#t-shirt-page">
+            <img src="Images/Icons/T-shirt-01.png" alt="" class="menu-icon">
+            <span>T-Shirt Branding</span>
+          </a>
+        </li>
+        <li class="js-website-button">
+          <a href="web-design-page">
+            <img src="Images/Icons/Website-01.png" alt="" class="menu-icon">
+            <span>Website Design</span>
+          </a>
+        </li>
+        <li class="js-illustration-button">
+          <a href="#illustration-page">
+            <img src="Images/Icons/Illustration-01.png" alt="" class="menu-icon">
+            <span>Illustration</span>
+          </a>
+        </li>
+        <li class="js-video-button">
+          <a href="#video-page">
+            <img src="Images/Icons/Video-01.png" alt="" class="menu-icon">
+            <span>Video Editing</span>
+          </a>
+        </li>
+        <li class="js-3D-button">
+          <a href="#3d-page">
+            <img src="Images/Icons/3d-modeling-01.png" alt="" class="menu-icon">
+            <span>3D Video Animation</span>
+          </a>
+        </li>
+        <li class="js-drone-button">
+          <a href="#drone-page">
+            <img src="Images/Icons/drone-01.png" alt="" class="menu-icon">
+            <span>Drone Photography</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+  <main>
+
+    <img src="Images/Icons/Get-in-touch-icon-01.png" alt="" class="chatOn">
+
+    <div id="chat-form" class="chat-popup">
+      <form action="https://formsubmit.co/romeokheswa@gmail.com" method="post" class="popup-form">
+        <h1>Feel free to get in touch.</h1><br>
+
+        <label for="Messages"><b>Messages</b></label><br>
+        <textarea name="message" id="contact-message" placeholder="Type your message here..." required></textarea><br>
+
+        <label for="email"><b>Email</b></label><br>
+
+        <input type="text" placeholder="Email" name="email" id="contact-email" required><br>
+        <div class="button-grid">
+          <button type="submit" class="contact-buttons">Send</button>
+          <button type="button" class="contact-buttons chatOff">Close</button>
+        </div>
+        
+      </form>
+    </div>
+
+      <div class="display-side js-display-side">
+
+      </div>
+   </main>
+ </section>
+ 
+  <script>
+    const resizeButton = document.querySelector('.js-sidebar');
+
+    resizeButton.addEventListener('click', function(e) {
+    e.preventDefault();
+      document.body.classList.toggle('sb-expanded');
+    });
+
+    const navLinkBtns = document.querySelectorAll('nav a');
+
+    navLinkBtns.forEach(navLinkBtn => {
+      navLinkBtn.addEventListener('click', () => {
+        document.querySelector('.active')?.classList.remove('active');
+        navLinkBtn.classList.add('active');
+      });
+    });
+ </script>
+ 
+ <script type="module" src="Scripts/Home.js"></script>
+ <script type="module" src="Scripts/CV.js"></script>
+ <script type="module" src="Scripts/About.js"></script>
+ <script type="module" src="Scripts/Logo-design.js"></script>
+ <script type="module" src="Scripts/Business-card.js"></script>
+ <script type="module" src="Scripts/flyer.js"></script>
+ <script type="module" src="Scripts/T-shirt.js"></script>
+ <script src="Scripts/Website.js"></script>
+ <script src="Scripts/Gallery.js"></script>
+ <script src="Scripts/Video-editing.js"></script>
+ <script src="Scripts/3d-animation.js"></script>
+ <script src="Scripts/drone.js"></script>
+ <script src="Scripts/Contact.js"></script>
+ 
+</body>
+</html>

@@ -14,22 +14,22 @@ tshirtPrintingButton.addEventListener('click', () => {
 
       <div class="t-shirt-printing-grid">
         <div class="t-shirt-card">
-          <img src="Icons/heat-press-icon-01.png" alt="" class="t-shirt-image">
+          <img src="Styles/Icons/heat-press-icon-01.png" alt="" class="t-shirt-image">
           <h2>HEAT PRESS</h2>
           <p>Experience in heat press clothing branding using 1 step media printing methods and also video flex vinyls that require heat stress to adhear to the fabric.</p>
         </div>
         <div class="t-shirt-card">
-          <img src="Icons/vinyl-cutting-icon-01.png" alt="" class="t-shirt-image">
+          <img src="Styles/Icons/vinyl-cutting-icon-01.png" alt="" class="t-shirt-image">
           <h2>VINYL CUTTING</h2>
           <p>Experience in using vinyl cutting programs such as silhouette studio and with designing layouts to be applied to large scale print and cut machines. With un understanding of the patience and attention to detail required.</p>
         </div>
         <div class="t-shirt-card">
-          <img src="Icons/screen-printing-icon-01.png" alt="" class="t-shirt-image">
+          <img src="Styles/Icons/screen-printing-icon-01.png" alt="" class="t-shirt-image">
           <h2>SCREEN PRINTING</h2>
           <p>Attended a short course for screen printing learning the step by step process of screen preparation, Imulsion cleaning and paint application.</p>
         </div>
         <div class="t-shirt-card">
-          <img src="Icons/embroidery-icon-01.png" alt="" class="t-shirt-image">
+          <img src="Styles/Icons/embroidery-icon-01.png" alt="" class="t-shirt-image">
           <h2>EMBROIDERY</h2>
           <p>Taining with embroidery cad software during my employment under Diphala Development Services which specialised in custom uniform embroidery. With a knowledge of digitizing software.</p>
         </div>

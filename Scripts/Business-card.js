@@ -13,7 +13,7 @@ businessCardButton.addEventListener('click', () => {
       </div>
       <div class="b1-sider-grid">
         <div class="b1-sider-card">
-          <img src="Images/Business-cards/Jasontech-1side-01.jpg" alt="" class="demo-card">
+          <img src="Business-cards/Jasontech-1side-01.jpg" alt="" class="demo-card">
           <div class="b1-sider-discription">
             <h2>JASONTECH 1 SIDE</h2>
             <p>
@@ -23,7 +23,7 @@ businessCardButton.addEventListener('click', () => {
           </div>
         </div>
         <div class="b1-sider-card">
-          <img src="Images/Business-cards/Mabaso-1side-01.jpg" alt="" class="demo-card">
+          <img src="Business-cards/Mabaso-1side-01.jpg" alt="" class="demo-card">
           <div class="b1-sider-discription">
             <h2>MABASO DENTAL PRACTICE 1 SIDE</h2>
             <p>
@@ -35,8 +35,8 @@ businessCardButton.addEventListener('click', () => {
       </div>
       <div class="b2-slider-grid">
         <div class="b2-sider-card">
-          <img src="Images/Business-cards/1-stop-front-01.jpg" alt="" class="demo-card-2">
-          <img src="Images/Business-cards/1-stop-back-01.jpg" alt="" class="demo-card-2">
+          <img src="Business-cards/1-stop-front-01.jpg" alt="" class="demo-card-2">
+          <img src="Business-cards/1-stop-back-01.jpg" alt="" class="demo-card-2">
           <div class="b2-discription">
             <h2 class="b2-header">1-STOP-MEDICAL</h2>
             <p>Double sided business cards developed under the employment of MBA Marketing. The client required a business card to accomidate the new logo we designed for them. their medical colours were red and white and the swoosh borders were to mimic the design of the logo.</p>
@@ -45,8 +45,8 @@ businessCardButton.addEventListener('click', () => {
 
         </div>
         <div class="b2-sider-card">
-          <img src="Images/Business-cards/rumbee-front-01.jpg" alt="" class="demo-card-2">
-          <img src="Images/Business-cards/rumbee-back-01.jpg" alt="" class="demo-card-2">
+          <img src="Business-cards/rumbee-front-01.jpg" alt="" class="demo-card-2">
+          <img src="Business-cards/rumbee-back-01.jpg" alt="" class="demo-card-2">
           <div class="b2-discription">
             <h2 class="b2-header">RUMBEE (OSHA)</h2>
             <p>Double sided business cards developed under the employment of MBA Marketing. The client required a business card for a department in their company that focused on Occupational Safety and Health in the private property construction department. They wanted a honeycomb pattern design with a Bee logo to represent productivity through safe work environments</p>
@@ -55,8 +55,8 @@ businessCardButton.addEventListener('click', () => {
 
         </div>
         <div class="b2-sider-card">
-          <img src="Images/Business-cards/SARA-front-01.jpg" alt="" class="demo-card-2">
-          <img src="Images/Business-cards/SARA-back-01.jpg" alt="" class="demo-card-2">
+          <img src="Business-cards/SARA-front-01.jpg" alt="" class="demo-card-2">
+          <img src="Business-cards/SARA-back-01.jpg" alt="" class="demo-card-2">
           <div class="b2-discription">
             <h2 class="b2-header">SA ROPE ACCESS</h2>
             <p>Double sided business cards developed under the employment of MBA Marketing. The client required a business card for their new logo and rebrand of their business. They wanted a sleek design with a touch of gold to represent South Africa's golden commercial colour.</p>
@@ -65,8 +65,8 @@ businessCardButton.addEventListener('click', () => {
 
         </div>
         <div class="b2-sider-card">
-          <img src="Images/Business-cards/Obuntu-front-01.jpg" alt="" class="demo-card-2">
-          <img src="Images/Business-cards/Obuntu-back-01.jpg" alt="" class="demo-card-2">
+          <img src="Business-cards/Obuntu-front-01.jpg" alt="" class="demo-card-2">
+          <img src="Business-cards/Obuntu-back-01.jpg" alt="" class="demo-card-2">
           <div class="b2-discription">
             <h2 class="b2-header">OBUNTU GROUP</h2>
             <p>Double sided business cards developed under the employment of MBA Marketing. The client required a business card for their side business that dealt with financial consulting for medical related debts.</p>

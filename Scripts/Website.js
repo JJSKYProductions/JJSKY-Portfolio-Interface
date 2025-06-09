@@ -17,11 +17,11 @@ webDesignButton.addEventListener('click', () => {
           <section class="container">
             <div class="slider-wrapper">
               <div class="slider">
-                <img id="slide-1" src="Images/Websites/Jasontech-1.png" alt="Jasontech Home Page">
-                <img id="slide-2" src="Images/Websites/Jasontech-2.png" alt="Jasontech About Page">
-                <img id="slide-3" src="Images/Websites/Jasontech-3.png" alt="Jasontech Graphics Page">
-                <img id="slide-4" src="Images/Websites/Jasontech-4.png" alt="Jasontech Illustration Page">
-                <img id="slide-5" src="Images/Websites/Jasontech-5.png" alt="Jasontech Multimedia Page">
+                <img id="slide-1" src="Websites/Jasontech-1.png" alt="Jasontech Home Page">
+                <img id="slide-2" src="Websites/Jasontech-2.png" alt="Jasontech About Page">
+                <img id="slide-3" src="Websites/Jasontech-3.png" alt="Jasontech Graphics Page">
+                <img id="slide-4" src="Websites/Jasontech-4.png" alt="Jasontech Illustration Page">
+                <img id="slide-5" src="Websites/Jasontech-5.png" alt="Jasontech Multimedia Page">
               </div>
               <div class="slider-nav">
                 <a href="#slide-1"></a>
@@ -45,13 +45,13 @@ webDesignButton.addEventListener('click', () => {
           <section class="container">
             <div class="slider-wrapper">
               <div class="slider">
-                <img id="diphala-1" src="Images/Websites/DiphalaDS-1.png" alt="Diphala Home Page">
-                <img id="diphala-2" src="Images/Websites/DiphalaDS-2.png" alt="Diphala Catalogue dowload">
-                <img id="diphala-3" src="Images/Websites/DiphalaDS-3.png" alt="Diphala About Page">
-                <img id="diphala-4" src="Images/Websites/DiphalaDS-4.png" alt="Diphala Home Page">
-                <img id="diphala-5" src="Images/Websites/DiphalaDS-5.png" alt="Diphala Home Page">
-                <img id="diphala-6" src="Images/Websites/DiphalaDS-6.png" alt="Diphala Home Page">
-                <img id="diphala-7" src="Images/Websites/DiphalaDS-7.png" alt="Diphala Home Page">
+                <img id="diphala-1" src="Websites/DiphalaDS-1.png" alt="Diphala Home Page">
+                <img id="diphala-2" src="Websites/DiphalaDS-2.png" alt="Diphala Catalogue dowload">
+                <img id="diphala-3" src="Websites/DiphalaDS-3.png" alt="Diphala About Page">
+                <img id="diphala-4" src="Websites/DiphalaDS-4.png" alt="Diphala Home Page">
+                <img id="diphala-5" src="Websites/DiphalaDS-5.png" alt="Diphala Home Page">
+                <img id="diphala-6" src="Websites/DiphalaDS-6.png" alt="Diphala Home Page">
+                <img id="diphala-7" src="Websites/DiphalaDS-7.png" alt="Diphala Home Page">
               </div>
               <div class="slider-nav">
                 <a href="#diphala-1"></a>

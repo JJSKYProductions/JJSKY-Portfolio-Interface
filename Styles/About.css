@@ -48,7 +48,7 @@
 
 .about-card {
   display: flexbox;
-  justify-items: center;
+  align-items: center;
   text-align: center;
   margin-left: 1rem;
   margin-bottom: 1rem;
@@ -60,7 +60,6 @@
 
 .about-icon {
   width: 100px;
-  display: block;
   margin: auto;
 }
 
@@ -105,7 +104,6 @@
 
   .about-icon {
     width: 100px;
-    display: block;
     margin: auto;
   }
 }

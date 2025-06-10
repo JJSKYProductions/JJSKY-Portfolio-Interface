@@ -61,6 +61,7 @@
 .about-icon {
   width: 100px;
   display: block;
+  align-self: center;
 }
 
 @media (max-width: 1350px) {

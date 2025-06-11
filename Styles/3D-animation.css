@@ -33,6 +33,7 @@
 .animation-video-card {
   display: block;
   justify-items: center;
+  align-items: center;
   text-align: center;
   margin-bottom: 1rem;
   color: lightgray;

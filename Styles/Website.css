@@ -114,7 +114,7 @@ section .container {
 
   .container {
     padding: 0;
-    margin-inline: auto;
+    margin-left: 2rem;
   }
 
   .web-intro-block {

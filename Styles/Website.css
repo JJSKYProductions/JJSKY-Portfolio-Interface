@@ -48,7 +48,6 @@ section .container {
   padding: 0;
   margin: 0;
   align-items: center;
-  width: 90%;
   margin-bottom: 1rem;
 }
 
@@ -130,8 +129,12 @@ section .container {
   }
 
   .slider-wrapper {
-    max-width: 100%;
+    width: 100%;
     margin-inline: auto;
+  }
+
+  .slider {
+    aspect-ratio: 17 / 9;
   }
 
   .slider-nav {

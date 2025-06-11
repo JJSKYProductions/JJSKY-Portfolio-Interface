@@ -123,11 +123,12 @@ section .container {
 
   .web-design-card {
     width: 80%;
+    align-items: center;
   }
 
   .slider-wrapper {
     max-width: 100%;
-    margin-inline: 0;
+    margin-inline: auto;
   }
 
   .slider-nav {

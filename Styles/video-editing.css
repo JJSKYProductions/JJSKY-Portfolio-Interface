@@ -57,6 +57,8 @@
 .video-discription {
   width: 80%;
   color: lightgray;
+  text-align: center;
+  margin: auto;
 }
 
 @media (max-width: 1100px) {
@@ -76,6 +78,10 @@
 
     .video-card {
       width: 90%;
+    }
+
+    .video-discription {
+      margin-left: 1rem;
     }
 
     .video-card-title {

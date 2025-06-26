@@ -52,6 +52,7 @@
 .animation-video-box {
   width: 90%;
   aspect-ratio: 16 / 9;
+  margin-inline: auto;
 }
 
 .animation-screenshots {
@@ -74,6 +75,7 @@
 .animation-video-discription {
   width: 80%;
   color: lightgray;
+  margin-inline: auto;
 }
 
 @media (max-width: 1100px) {
@@ -95,5 +97,6 @@
   .animation-screenshots {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-inline: auto;
   }
 }

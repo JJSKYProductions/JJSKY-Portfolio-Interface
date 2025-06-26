@@ -80,8 +80,12 @@
       width: 90%;
     }
 
+    .video-card-box {
+      margin-inline: auto;
+    }
+
     .video-discription {
-      margin-left: 1rem;
+      margin-inline: auto;
     }
 
     .video-card-title {

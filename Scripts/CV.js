@@ -13,7 +13,7 @@ cvButton.addEventListener('click', () => {
           <img src="CV-images/CV-02.jpg" alt="" class="cv-image">
           <h2 class="CV-title">NQF QUALIFICATIONS</h2>
           <img src="CV-images/CV-03.jpg" alt="" class="cv-image">
-          <img src="CV-images/CV-04.jpg" alt="" class="cv-image">
+          <img src="CV-images/CV-04.jpg" alt="" class="cv-image footer">
         </div>
   `
 });

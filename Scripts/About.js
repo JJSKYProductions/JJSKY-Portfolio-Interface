@@ -42,7 +42,7 @@ aboutButton.addEventListener('click', () => {
           </p>
         </div>
       </div>
-      <div class="about-grid footer">
+      <div class="about-grid">
         <div class="about-card">
           <img src="Styles/Icons/Video-01.png" alt="" class="about-icon">
           <h2>VIDEOGRAPHY</h2>
@@ -57,7 +57,7 @@ aboutButton.addEventListener('click', () => {
             Web design software experience using programs like Wordpress, Woocommerce, Godaddy, and GitHub. With an understanding of front end web development languages such as HTML, CSS and JavaScript. And with a clear knowledge of UX and UI design and layout management.
           </p>
         </div>
-        <div class="about-card footer">
+        <div class="about-card">
           <img src="Styles/Icons/drone-01.png" alt="" class="about-icon">
           <h1>DRONE PHOTOGRAPHY</h1>
           <p>
@@ -65,6 +65,7 @@ aboutButton.addEventListener('click', () => {
           </p>
         </div>
       </div>
+      <div class="footer"></div>
     </div>
   `
 });

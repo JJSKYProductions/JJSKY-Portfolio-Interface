@@ -75,7 +75,7 @@ businessCardButton.addEventListener('click', () => {
 
         </div>
       </div>
-
+      <div class="footer-space"></div>
     </div>
   `
 });

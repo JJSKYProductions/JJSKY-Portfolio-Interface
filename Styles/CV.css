@@ -28,6 +28,10 @@
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5); 
 }
 
+.footer {
+  margin-bottom: 10rem;
+}
+
 @media (max-width: 1300px) {
     .CV-display-block {
     margin-left: 4rem;

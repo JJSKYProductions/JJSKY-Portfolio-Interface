@@ -42,7 +42,7 @@ aboutButton.addEventListener('click', () => {
           </p>
         </div>
       </div>
-      <div class="about-grid">
+      <div class="about-grid footer">
         <div class="about-card">
           <img src="Styles/Icons/Video-01.png" alt="" class="about-icon">
           <h2>VIDEOGRAPHY</h2>

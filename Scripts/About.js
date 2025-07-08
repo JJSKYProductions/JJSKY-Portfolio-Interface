@@ -57,7 +57,7 @@ aboutButton.addEventListener('click', () => {
             Web design software experience using programs like Wordpress, Woocommerce, Godaddy, and GitHub. With an understanding of front end web development languages such as HTML, CSS and JavaScript. And with a clear knowledge of UX and UI design and layout management.
           </p>
         </div>
-        <div class="about-card">
+        <div class="about-card footer">
           <img src="Styles/Icons/drone-01.png" alt="" class="about-icon">
           <h1>DRONE PHOTOGRAPHY</h1>
           <p>

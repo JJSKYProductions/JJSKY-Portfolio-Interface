@@ -34,6 +34,7 @@ tshirtPrintingButton.addEventListener('click', () => {
           <p>Taining with embroidery cad software during my employment under Diphala Development Services which specialised in custom uniform embroidery. With a knowledge of digitizing software.</p>
         </div>
       </div>
+      <div class="footer-space"></div>
     </div>
   `
 });

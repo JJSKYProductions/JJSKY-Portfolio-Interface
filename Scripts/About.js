@@ -65,7 +65,7 @@ aboutButton.addEventListener('click', () => {
           </p>
         </div>
       </div>
-      <div class="footer"></div>
+      <div class="footer-space"></div>
     </div>
   `
 });

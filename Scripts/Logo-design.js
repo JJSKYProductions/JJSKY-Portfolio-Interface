@@ -64,7 +64,7 @@ logoDesignButton.addEventListener('click', () => {
           </div>
         </div>
       </div>
-      <div class="logo-grid bottom">
+      <div class="logo-grid">
         <div class="logo-card">
           <img src="Logos/footprint-logo-01.png" alt="" class="logo-image">
           <div class="logo-discription">
@@ -82,7 +82,7 @@ logoDesignButton.addEventListener('click', () => {
           </div>
         </div>
       </div>
-      <div class="logo-grid">
+      <div class="logo-grid bottom">
         <div class="logo-card">
           <img src="Logos/1-stop-logo-01.png" alt="" class="logo-image">
           <div class="logo-discription">
